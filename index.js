@@ -68,7 +68,7 @@ const reset = () =>{
     box.forEach((box) =>{
     res.addEventListener("click" , () =>{
         box.innerHTML = "";
-        msg.innerText = "";
+        msg.innerText = "O turn";
         box.disabled = false;
         count = 0;
         turnO = true;
